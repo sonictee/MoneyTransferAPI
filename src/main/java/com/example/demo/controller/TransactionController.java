@@ -23,7 +23,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping("/v1/transfer")
+@RequestMapping("/v1/transaction")
 @Api(tags = {"Transaction Controller"}, description = "Provide APIs for transaction related operation")
 public class TransactionController {
 	
