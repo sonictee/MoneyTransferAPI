@@ -32,10 +32,10 @@ mvn test
 java -jar demo-0.0.1-SNAPSHOT.jar
 ```
 ### Data
-Initial data will be loaded in the H2 database when application start
-> 
->
->
+Initial data (src\main\resources\data.sql) will be loaded in the H2 database when application start.
+> INSERT INTO ACCOUNTS (ACCOUNTID, BALANCE) VALUES
+> (1, 100),
+> (2, 100);
 ## Feature
 This application is for demo only. It provides APIs for following 2 features
 - Retrieve Account Balance
